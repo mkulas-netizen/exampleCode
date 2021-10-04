@@ -37,11 +37,7 @@ class Book extends Model
         'authorFullName'
     ];
 
-    /** @var array|string[]
-     * @TODO ODSTRÁNIŤ TIPOVANIE
-     * array
-     */
-    protected array $fillable = [
+    protected $fillable = [
         'title','is_borrowed','author_id'
     ];
 

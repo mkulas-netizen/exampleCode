@@ -18,11 +18,7 @@ class Author extends Model
 
     use HasFactory;
 
-    /** @var array|string[]
-     * @TODO ODSTRÁNIŤ TIPOVANIE
-     * array
-     */
-    protected array $fillable = [
+    protected $fillable = [
         'name','surname'
     ];
 
